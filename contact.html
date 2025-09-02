@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon-image.png">
+    <title>Zay Shop eCommerce Template</title>
+</head>
+<body>
+      <header>
+        <nav id="topbar">
+            <div id="container">
+                <div class="container-item">
+                    <i  class="fa-solid fa-envelope link"></i>
+                    <a class="link" href="mailto:info@zayshop.com">info@zayshop.com</a>
+                    <i class="fa-solid fa-phone link"></i>
+                    <a class="link" href="tel:+1234567890">010-020-0340</a>
+                </div>
+                <div id="container-icon">
+                    <a class="link" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="link" href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="link" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </nav>
+    
+          <nav class="navbar">
+    <a href="index.html" class="logo">Zay</a>
+    
+    <button class="btn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="icons">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <div class="badge">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>7</span>
+      </div>
+      <div class="badge">
+        <i class="fa-solid fa-user"></i>
+        <span>+99</span>
+      </div>
+    </div>
+  </nav>
+    </header>
+
+    <main>
+        <div class="contact-section">
+            <h1>contact us</h1>
+            <form>
+                <div class="form-row">
+                   <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Name">
+                   </div>
+                   <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" placeholder="Email">
+                   </div>
+                   </div>
+                   <div class="form-group">
+                    <label for="Subject">Subject</label>
+                    <input id="subject" type="text" placeholder="subject">
+                   </div>
+
+                   <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea id="message" placeholder="meassage"></textarea>
+                   </div>
+
+                <button type="submit">Let's Talk</button>
+            </form>
+        </div>
+    </main>
+
+
+  <footer>
+  <div class="foot-one">
+ 
+    <ul class="footer-column">
+      <li><h2 class="foot-head">Zay Shop</h2></li>
+      <li class="footer-icon">
+        <i class="fa fa-map-marker-alt fa-fw"></i>
+        <a class="footer-link" href="#">123 Consectetur at ligula 10660</a>
+      </li>
+      <li class="footer-icon">
+        <i class="fa-solid fa-envelope"></i>
+        <a class="footer-link" href="mailto:info@zayshop.com">info@zayshop.com</a>
+      </li>
+      <li class="footer-icon">
+        <i class="fa-solid fa-phone"></i>
+        <a class="footer-link" href="tel:+1234567890">010-020-0340</a>
+      </li>
+    </ul>
+     
+
+    
+    <ul class="footer-column">
+      <li><h2 class="foot-head">Products</h2></li>
+      <li><a class="footer-link" href="#">Luxury</a></li>
+      <li><a class="footer-link" href="#">Sport Wear</a></li>
+      <li><a class="footer-link" href="#">Men's Shoes</a></li>
+      <li><a class="footer-link" href="#">Women's Shoes</a></li>
+      <li><a class="footer-link" href="#">Popular Dress</a></li>
+      <li><a class="footer-link" href="#">Gym Accessories</a></li>
+      <li><a class="footer-link" href="#">Sport Shoes</a></li>
+    </ul>
+
+  
+    <ul class="footer-column">
+      <li><h2 class="foot-head">Further Info</h2></li>
+      <li><a class="footer-link" href="#">Home</a></li>
+      <li><a class="footer-link" href="#">About Us</a></li>
+      <li><a class="footer-link" href="#">Shop Locations</a></li>
+      <li><a class="footer-link" href="#">FAQs</a></li>
+      <li><a class="footer-link" href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const btn = document.querySelector(".btn");
+  const navMenu = document.querySelector(".navbar ul");
+
+  btn.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+  });
+</script>
+
+
+</body>
+</html>
