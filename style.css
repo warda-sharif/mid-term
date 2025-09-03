@@ -397,6 +397,13 @@ html {
   margin: 0 15px;
   
 }
+.shop-caption{
+        width: 80%; 
+        display: flex;
+        flex-direction: column;
+      margin-left: 35px;
+         padding-right: 12px; 
+    }
  .product-card {
       width: 250px;
       border: 1px solid #ddd;
@@ -606,6 +613,14 @@ footer {
    padding: 0 15px; 
     text-align: start;
   } 
+
+   .shop-caption {
+    max-width: 600px;              
+   padding: 0 15px; 
+    text-align: start;
+  } 
+
+
 
   .slider1 img {
     height: auto;
