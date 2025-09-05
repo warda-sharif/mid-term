@@ -167,7 +167,7 @@ html {
     @keyframes sliderright{
         from{
             transform: translate(-200%);
-            -o-object-position: 0;
+      
         }
         to{
             transform: translateX(0);
